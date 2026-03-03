@@ -1,0 +1,31 @@
+.token
+# --- Python環境 ---
+.venv/
+bin/
+lib/
+include/
+__pycache__/
+*.pyc
+
+# --- 環境変数（絶対厳禁） ---
+.env
+.bashrc*
+*.auth
+*.key
+*.pem
+
+# --- Streamlit関連 ---
+.streamlit/config.toml
+# (ただし、テーマ設定を共有したい場合は .streamlit/ を除外しないこともあります)
+
+# --- OS・エディタ ---
+.vscode/
+.idea/
+.DS_Store
+
+# --- Node.js (JavaScript) ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
